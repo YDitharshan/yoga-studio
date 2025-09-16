@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Yoga Foto Station",
   description: "Your Story in Focus.",
   icons: {
-    icon: "/images/icon-yogastudio.svg", // <-- favicon path (must be in /public folder)
+    icon: "/images/icon-yogastudio.svg",
   },
 };
 
