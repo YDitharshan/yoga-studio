@@ -99,7 +99,7 @@ const AboutSec = () => {
 
                 {/* buttons Wrapper */}
                 <div className="flex flex-wrap gap-4">
-                  <Link href="#" className="primary-btn w-full text-center">
+                  <Link href="/album" className="primary-btn w-full text-center">
                     View Our Album Works
                   </Link>
                   <Link href="#" className="primary-btn w-full  text-center">
