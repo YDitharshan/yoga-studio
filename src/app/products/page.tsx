@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
+
 // Sample product data
 const products = [
   { id: 1, name: "Duro Frame A1", price: "Rs. 2500", category: "Duro Frame", image: "/images/products/duro1.jpg" },
