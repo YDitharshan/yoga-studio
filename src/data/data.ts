@@ -27,6 +27,11 @@ export const navItems = [
     label: "Services",
     path: "/services",
   },
+  {
+    id: 5,
+    label: "Yoga's Art",
+    path: "/products",
+  },
 ];
 
 export const marqueeItems = [
