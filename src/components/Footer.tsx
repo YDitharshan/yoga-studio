@@ -79,7 +79,8 @@ const Footer = () => {
               {/* copy right info */}
               <p>
                 &copy; {new Date().getFullYear()} Yoga Foto Station. All
-                rights reserved.
+                rights reserved. <br />
+                Website Design & Developed by Ditharshan Yogarajah
               </p>
             </motion.div>
           </div>
