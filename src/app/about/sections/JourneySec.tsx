@@ -2,13 +2,17 @@
 
 //import motion
 import { motion } from "motion/react";
-import { fadeIn, fadeInUp, staggerContainer } from "@/motion/animations";
+import { fadeInUp, staggerContainer } from "@/motion/animations";
 
 import Title from "@/components/Title";
 import { journeyItems } from "@/data/data";
 import React from "react";
 
 const JourneySec = () => {
+  const showJourney = false; // ⬅️ Change this to true if you want to show later
+
+  if (!showJourney) return null; // Hides the whole section
+
   return (
     <section className="pt-40">
       <motion.div
